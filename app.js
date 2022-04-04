@@ -2,6 +2,10 @@ const util = require('minecraft-server-util');
 const express = require("express");
 const app = express()
 
+app.get('/', function(req,res){
+    res.json('{"status":"200"}')
+})
+
 app.get('/rcon', function(req,res) {
     const client = new util.RCON();
 
