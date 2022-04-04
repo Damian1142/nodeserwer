@@ -31,4 +31,4 @@ const loginOpts = {
 })();
 });
 
-app.listen(8080,() => {console.log("Słucham")})
+app.listen(80,() => {console.log("Słucham")})
