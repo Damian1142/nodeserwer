@@ -3,7 +3,7 @@ const express = require("express");
 const app = express()
 
 app.get('/', function(req,res){
-    res.json('{"status":"200"}')
+    res.json("{\"status\":200}")
 })
 
 app.get('/rcon', function(req,res) {
